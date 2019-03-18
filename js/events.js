@@ -45,7 +45,7 @@ The function should bind a keydown event to the input field of the form that ale
 The function should bind a submit event to the form that alerts "Your form is going to be submitted now.".
 */
 function submitIt() {
-  $('form').on("submit",function(){
+  $('input[type=submit]').on("submit",function(){
     alert("Your form is going to be submitted now.");
   })
 }
