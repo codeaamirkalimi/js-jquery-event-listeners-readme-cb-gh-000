@@ -10,7 +10,10 @@ Define a function getIt that does not accept a parameter.
 $(document).ready(function(){
 
 // call functions here
-
+   getIt();
+   frameIt();
+   pressIt();
+   submitIt();
 });
 function frameIt() {
   $('img').on('load', function(){
