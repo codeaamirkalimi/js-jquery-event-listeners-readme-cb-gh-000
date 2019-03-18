@@ -20,5 +20,7 @@ function frameIt() {
   });
 }
 function getIt() {
-  $('p').click(alert("Hey!"));
+  $('p').click(function(){
+    alert("Hey!");
+});
 }
