@@ -20,7 +20,7 @@ function frameIt() {
   });
 }
 function getIt() {
-  $('p').click(function(){
-    alert("Hey!");
-});
+  $('p').on('click', function() {
+    alert("Hey!")
+  })
 }
